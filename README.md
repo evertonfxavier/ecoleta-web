@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Ecoleta Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Preview
 
-## Available Scripts
+<h1 align="center">
+  <img alt="test-socorabacom" title="#test-socorabacom" src="https://i.ibb.co/vvJV0nV/Ecoleta-Booster.png" width="100%" />
+</h1>
 
-In the project directory, you can run:
+## 💻 Project
 
-### `yarn start`
+Este projeto foi realizado com base no projeto da Next Level Week 1, fornecido pela Rocketseat..
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Consiste em um sistema focado em pontos de coleta.
+<br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+No aplicação WEB, posso cadastrar os pontos de coleta. Já na aplicação MOBILE, as pessoas podem visualizar os pontos específicos, selecionar algum deles e entrar em contato com o mesmo caso se interesse.
+<br />
 
-### `yarn test`
+## 🧬 Techologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was developed using the following technologies:
+ <br />
 
-### `yarn build`
+ [WEB](https://github.com/evertonfxavier/ecoleta-web)
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [React Leaflet](https://react-leaflet.js.org/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ [MOBILE](https://github.com/evertonfxavier/ecoleta-mobile)
+- [Expo](https://expo.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [React Navigation](https://reactnavigation.org/)
+- [React Native Map](https://github.com/react-native-maps/react-native-maps)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ [SERVER](https://github.com/evertonfxavier/ecoleta-server)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sqlite3](https://www.sqlite.org/index.html)
+- [Knex](https://knexjs.org/)
+- [Multer](https://www.npmjs.com/package/multer)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started 
 
-### `yarn eject`
+Clone the project and access the folder.
+```bash
+#Clone project
+$ git clone https://github.com/evertonfxavier/ecoleta-web.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Follow the steps below
+```bash
+#Install the dependecies 
+$ npm install or yarn  
+ 
+#Start projet
+$ npm run start or yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/evertonfxavier/ecoleta-web/blob/main/LICENSE.md) file for details
